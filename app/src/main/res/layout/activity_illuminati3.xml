@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0180b5"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".illuminati3">
+
+
+    <EditText
+        android:id="@+id/EdtName_3"
+        android:textColor="#ffff"
+        android:textColorHint="#fffae2"
+        android:hint="plz enter name tag"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/EdtFamily_3"
+        android:textColor="#ffff"
+        android:textColorHint="#fffae2"
+        android:hint="plz enter family tag"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/EdtAge_3"
+        android:maxLength="2"
+        android:textColor="#ffff"
+        android:textColorHint="#fffae2"
+        android:hint="plz enter age tag"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <EditText
+        android:id="@+id/EdtPhone_3"
+        android:textColor="#ffff"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#fffae2"
+        android:maxLength="11"
+        android:inputType="phone"
+        android:hint="plz enter your phone number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/EdtAddress_3"
+        android:textColor="#ffff"
+        android:textColorHint="#fffae2"
+        android:hint="plz enter your address tag"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:background="#ffcc99"
+        android:id="@+id/BtnReview_3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="review" />
+
+</LinearLayout>
